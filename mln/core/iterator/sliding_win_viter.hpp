@@ -1,0 +1,10 @@
+#ifndef MLN_CORE_ITERATOR_SLIDING_WIN_VITER_HPP
+# define MLN_CORE_ITERATOR_SLIDING_WIN_VITER_HPP
+
+namespace mln
+{
+
+
+} // end of namespace mln
+
+#endif //!MLN_CORE_ITERATOR_SLIDING_WIN_VITER_HPP

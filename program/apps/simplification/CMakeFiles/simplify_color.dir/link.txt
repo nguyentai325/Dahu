@@ -1,0 +1,1 @@
+/usr/local/bin/c++    -W -Wextra -Wall -std=c++0x -O3 -DNDEBUG -W -Wextra -Wall -O3 -DNDEBUG    CMakeFiles/simplify_color.dir/simplify_color.cpp.o CMakeFiles/simplify_color.dir/__/tos/colorToSGrad.cpp.o  -o simplify_color -rdynamic -ltbb -ltbbmalloc -lrt -lfreeimage 

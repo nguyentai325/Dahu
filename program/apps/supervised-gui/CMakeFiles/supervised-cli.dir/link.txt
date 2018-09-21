@@ -1,0 +1,1 @@
+/usr/local/bin/c++    -W -Wextra -Wall -std=c++0x -O3 -DNDEBUG -W -Wextra -Wall -O3 -DNDEBUG    CMakeFiles/supervised-cli.dir/supervised-cli.cpp.o  -o supervised-cli -rdynamic -ltbb -ltbbmalloc -lrt -lfreeimage -lQtGui -lQtCore 

@@ -1,0 +1,1 @@
+/usr/local/bin/c++    -W -Wextra -Wall -std=c++0x -O3 -DNDEBUG -W -Wextra -Wall -O3 -DNDEBUG    CMakeFiles/mumford_shah.dir/mumford_shah.cpp.o  -o mumford_shah -rdynamic -ltbb -ltbbmalloc -lrt /lrde/home/movn/local/include/boost/lib/libboost_unit_test_framework.so -lfreeimage -Wl,-rpath,/lrde/home/movn/local/include/boost/lib 

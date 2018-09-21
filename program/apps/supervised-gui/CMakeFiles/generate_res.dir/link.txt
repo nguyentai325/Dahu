@@ -1,0 +1,1 @@
+/usr/local/bin/c++    -W -Wextra -Wall -std=c++0x -O3 -DNDEBUG -W -Wextra -Wall -O3 -DNDEBUG    CMakeFiles/generate_res.dir/generate_res.cpp.o  -o generate_res -rdynamic -ltbb -ltbbmalloc -lrt -lfreeimage 

@@ -1,0 +1,102 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2355608821/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2355608821.dir/build.make CMakeFiles/cmTryCompileExec2355608821.dir/build
+make[1]: Entering directory '/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2355608821.dir/CheckSymbolExists.cxx.o
+/usr/local/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2355608821.dir/CheckSymbolExists.cxx.o -c /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec2355608821.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2355608821.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2355608821.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2355608821/fast' failed
+make: *** [cmTryCompileExec2355608821/fast] Error 2
+
+File /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec164682220/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec164682220.dir/build.make CMakeFiles/cmTryCompileExec164682220.dir/build
+make[1]: Entering directory '/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec164682220.dir/CheckSymbolExists.cxx.o
+/usr/local/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec164682220.dir/CheckSymbolExists.cxx.o -c /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec164682220.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec164682220.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec164682220.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec164682220/fast' failed
+make: *** [cmTryCompileExec164682220/fast] Error 2
+
+File /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3561111109/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3561111109.dir/build.make CMakeFiles/cmTryCompileExec3561111109.dir/build
+make[1]: Entering directory '/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3561111109.dir/CheckSymbolExists.cxx.o
+/usr/local/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3561111109.dir/CheckSymbolExists.cxx.o -c /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec3561111109.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3561111109.dir/CheckSymbolExists.cxx.o' failed
+make[1]: Leaving directory '/lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3561111109.dir/CheckSymbolExists.cxx.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3561111109/fast' failed
+make: *** [cmTryCompileExec3561111109/fast] Error 2
+
+File /lrde/home/movn/Documents/code/code_edwin/program/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

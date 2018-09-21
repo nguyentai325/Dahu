@@ -1,0 +1,1 @@
+/usr/local/bin/c++    -W -Wextra -Wall -std=c++0x -O3 -DNDEBUG -W -Wextra -Wall -O3 -DNDEBUG    CMakeFiles/decompose_channels.dir/decompose_channels.cpp.o  -o decompose_channels -rdynamic -ltbb -ltbbmalloc -lrt -lfreeimage 

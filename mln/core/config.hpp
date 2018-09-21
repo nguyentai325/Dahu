@@ -1,0 +1,1 @@
+#define BOOST_PP_VARIADICS 1 

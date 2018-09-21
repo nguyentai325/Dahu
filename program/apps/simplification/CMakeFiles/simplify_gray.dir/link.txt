@@ -1,0 +1,1 @@
+/usr/local/bin/c++    -W -Wextra -Wall -std=c++0x -O3 -DNDEBUG -W -Wextra -Wall -O3 -DNDEBUG    CMakeFiles/simplify_gray.dir/simplify_gray.cpp.o  -o simplify_gray -rdynamic -ltbb -ltbbmalloc -lrt -lfreeimage 

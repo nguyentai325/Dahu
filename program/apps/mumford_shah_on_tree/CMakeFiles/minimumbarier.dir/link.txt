@@ -1,0 +1,1 @@
+/usr/local/bin/c++    -W -Wextra -Wall -std=c++0x -O3 -DNDEBUG -W -Wextra -Wall -O3 -DNDEBUG    CMakeFiles/minimumbarier.dir/minimumbarier.cpp.o  -o minimumbarier -rdynamic -ltbb -ltbbmalloc -lrt -lfreeimage 

@@ -1,0 +1,12 @@
+-I/lrde/home/movn/Documents/code/code_edwin
+-I/usr/include
+-I/lrde/home/movn/local/include/boost/include
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/lrde/home/movn/Documents/code/code_edwin/program/apps/saliency/imageviewer.moc.cpp
+/lrde/home/movn/Documents/code/code_edwin/mln/qt/imageviewer.hxx

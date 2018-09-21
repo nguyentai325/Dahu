@@ -1,0 +1,37 @@
+#ifndef MLN_CORE_RANGE_ADAPTOR_REVERSED_HPP
+# define MLN_CORE_RANGE_ADAPTOR_REVERSED_HPP
+
+# include <mln/core/range/iterator_range.hpp>
+# include <mln/core/range/range_reverse_iterator.hpp>
+# include <mln/core/range/adaptor/adaptor.hpp>
+
+namespace mln {
+  namespace range {
+    namespace adaptor {
+
+      template <typename ReversibleRange>
+      struct reversed_range
+        : public iterator_range<typename range_reverse_iterator<ReversibleRange>::type>
+      {
+        // FIXME: add concept check
+      private:
+        typedef iterator_range<typename range_reverse_iterator<ReversibleRange>::type> base;
+
+      public:
+        typedef typename range_category<ReversibleRange>::type category;
+
+        explicit reversed_range(ReversibleRange& r)
+          : base(rbegin(r), rend(r)) // rbegin, rend found by ADL
+        {
+        }
+
+      };
+
+    } // end of namespace mln::range::adaptor
+  } // end of namespace mln::range
+} // end of namespace mln
+
+
+
+
+#endif //!MLN_CORE_RANGE_ADAPTOR_REVERSED_HPP

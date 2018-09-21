@@ -1,0 +1,1 @@
+/usr/local/bin/c++    -W -Wextra -Wall -std=c++0x -O3 -DNDEBUG -W -Wextra -Wall -O3 -DNDEBUG    CMakeFiles/lab2rgb.dir/lab2rgb.cpp.o  -o lab2rgb -rdynamic -ltbb -ltbbmalloc -lrt -lfreeimage 

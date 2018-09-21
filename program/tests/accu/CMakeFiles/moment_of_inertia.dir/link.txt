@@ -1,0 +1,1 @@
+/usr/local/bin/c++    -W -Wextra -Wall -std=c++0x -O3 -DNDEBUG -W -Wextra -Wall -O3 -DNDEBUG    CMakeFiles/moment_of_inertia.dir/moment_of_inertia.cpp.o  -o moment_of_inertia -rdynamic -ltbb -ltbbmalloc -lrt /lrde/home/movn/local/include/boost/lib/libboost_unit_test_framework.so -Wl,-rpath,/lrde/home/movn/local/include/boost/lib 

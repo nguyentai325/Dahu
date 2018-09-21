@@ -1,0 +1,1 @@
+/usr/local/bin/c++    -W -Wextra -Wall -std=c++0x -O3 -DNDEBUG -W -Wextra -Wall -O3 -DNDEBUG    CMakeFiles/imview.dir/imview.cpp.o CMakeFiles/imview.dir/__/__/mln/qt/moc_imageviewer.cxx.o CMakeFiles/imview.dir/__/__/mln/qt/qtimage.cpp.o CMakeFiles/imview.dir/imageviewer.moc.cpp.o  -o imview -rdynamic -ltbb -ltbbmalloc -lrt -lfreeimage -lQtGui -lQtCore 

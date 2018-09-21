@@ -1,0 +1,1 @@
+/usr/local/bin/c++    -W -Wextra -Wall -std=c++0x -O3 -DNDEBUG -W -Wextra -Wall -O3 -DNDEBUG    CMakeFiles/mumford_shah_on_tree_16.dir/mumford_shah_on_tree.cpp.o  -o mumford_shah_on_tree_16 -rdynamic -ltbb -ltbbmalloc -lrt -lfreeimage 
